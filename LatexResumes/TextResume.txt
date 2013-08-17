@@ -1,0 +1,204 @@
+﻿===============================================================================
+Name: ARVIND A. DE MENEZES PEREIRA
+Phone: (213) 270-4465 or (213) 342-1734
+WebPage: http://robotics.usc.edu/~ampereir
+LinkedIn: http://linkedin.com/in/arvindpereira
+Address: 1026 1/2 W 24th St. Los Angeles, CA 90007
+Email: arvind.pereira@gmail.com
+PhD candidate (CS), MS-EE, BE(Electronics)
+
+OBJECTIVE
+Seeking a full time position at a company where I can utilize my skills to 
+research and develop amazing products.
+
+
+CORE EXPERTISE
+Artiﬁcial Intelligence,  Robotics & Control Systems,  Machine Learning,
+Planning under uncertainty,  Computer Vision  Signal & Image Processing,
+Embedded systems,  Computer Networking,  Data Structures & Algorithms
+
+
+WORK EXPERIENCE
+-------------------------------------------------------------------------------
+University of Southern California, Los Angeles           January 2006 - Present
+Research Assistant,                         Robotic Embedded Systems Laboratory
+1. Developed path planners for glider AUVs under High Uncertainty
++ 1st planners for glider AUVs to deal with uncertainty in 
+  ocean model predictions
++ Combines techniques from AI, Machine Learning and Robotics
++ All code written in C++ and Python (STL, Boost, NumPy/SciPy)
++ Used hardware parallelization and advanced data structures to 
+  speed up computations
+
+2. Developed a long-range RF communication network for AUVs in 
+   Southern California 
++ Improved data throughput by over 24x and reduced operation cost by over 50%
++ Required Computer Networking, Embedded Systems and Signal Processing
++ All code written in C++ (both ARM and PC-based Linux)
+
+3. Developed a novel TCP-like communication protocol which adapts dynamically 
+   to sea state
++ 1st motion-aware adaptive communication protocol
++ Required Computer Networking, Reinforcement Learning and Signal Processing
++ All code written in C++ (both ARM and PC-based Linux)
+
+4. Developed the Guidance, Navigation and Control for Autonomous Surface 
+   Vehicles incl. stereo-vision based obstacle avoidance and Station-Keeping
++ Took only 2 months to complete autonomy from RC-control to Mission control
++ Required Control Systems, Robotics, Computer Networking, Computer Vision, 
+  and Image Processing
++ All code on robot written in C++ (Linux); OpenCV for vision. 
+  GUI written in C# .Net (Windows);
++ Prototyping in Matlab (Control Systems Toolbox, 
+  System Identiﬁcation Toolbox) and Simulink 
+
+-------------------------------------------------------------------------------
+Institute for Systems and Robotics, Lisbon, Portugal       May 2008–August 2008
+Lead Developer                                                  EU-GREX Project 
+1. Implemented GREX Interface module for EU-GREX project
++ Met all objectives on time despite large pre-existing code-base, and 
+  multi-national teams
++ All software was successfully tested - only team with working robot at ﬁeld 
+  test in July
++ Required Control Systems, Robotics, Ability to understand and implement 
+  complex algorithms quickly
++ Coded in Visual C++ .Net (Embedded Windows PC) and Matlab for prototyping
+
+-------------------------------------------------------------------------------
+National Institute of Oceanography, Goa, India September       2003 - July 2005
+Research Fellow                      Marine Instrumentation & Computer Division 
+1. Led software development and hardware design on India’s ﬁrst Autonomous 
+   Underwater Vehicle (MAYA)
++ Wrote over 95% of Control, Communications, Recovery, Guidance and  Navigation 
+  code
++ Required Control Systems, Robotics, Computer Networking
++ Coded in C++ (Linux), Visual C++ (Windows) for Control GUI, C 
+  (for micro controllers) and Matlab for prototyping
++ Designed most of the original embedded circuitry for CAN actuator nodes
+
+2. Developed a Wave-recorder that uploaded wave-data to server via GSM cellular 
+   data-modems
++ One of the earliest GSM-enabled instruments in Oceanography
++ Code written in C (Embedded), Visual C++ for Windows-based GUI
++ Hardware design involved PCB layout software (Eagle)
+
+-------------------------------------------------------------------------------
+National Institute of Oceanography, Goa, India        August 2002 - August 2003
+Project Assistant                    Marine Instrumentation & Computer Division 
+1. Worked on the design of a heading controller for ROSS - ”Remotely Operated 
+   Sea Skimmer”, a surface craft which was remotely controlled
++ Tested robot at sea successfully at sea (soldered broken circuitry at sea)
++ Code written in C/C++ (Linux), Visual C++ for Windows-based GUI
++ Hardware design involved PCB layout software (Eagle)
+
+2. Developed Tide-gauges for the Indo-Ghanaian Collaborative program  (UNESCO)
++ Tide gauges I developed are still functional after 8 years without servicing
++ Code written in C/C++ (Embedded), Visual C++ for Windows-based GUI
+
+
+
+ENTREPRENEURIAL EXPERIENCE
+1. KnoVid - Developing an alternate unobtrusive Interest-based ad system for 
+   Android and iOS devices
+2. KartTime - Designed a system that determines lap-timings for Go-Karts and 
+   which uses short-range wireless RF-communication based on slotted TDM, FDM 
+   and FSK
+
+
+MENTORING EXPERIENCE
+Undergraduate student projects mentored (Groups of 3-5 students per project.)
+1. ”PIC-based Fin/Rudder Node for AUV”  
+2. ”PIC-based Tide Level Measurement System”
+3. ”PI-controller for Thruster speed regulation”  
+4. ”Pan and Tilt system for Thrust Vectoring an AUV”
+
+
+===============================================================================
+TECHNICAL EXPERTISE
+Programming Languages
+---------------------
+Very Proficient: C, C++ (OOP, Boost, STL, Sockets, Multi-threading), Python, 
+                 Matlab
+Past Experience: Visual C++, C#, Java, Obj-C, Javascript, SQL, Perl, LATEX, 
+                 Shell Scripting
+
+Operating Systems 
+-----------------
+Very Proficient: Ubuntu Linux, Unix, OS-X, Windows 
+Past Experience: MS-DOS, TinyOS
+
+Frameworks
+----------------
+Proficient     :  iOS (Xcode), Android, ROS, PCL, OpenCV 
+Past Experience: Player, Stage, Gazebo, OpenNI
+
+Testing
+----------------
+Proficient     : PyUnit, CppUnit 
+Past Experience: JUnit, NUnit, googletest
+
+Version Control
+----------------
+Proficient     : Git, Subversion
+Past Experience: Mercurial
+
+Tools & Utilities 
+-----------------
+Proficient     : Eclipse, Xcode, Simulink, NumPy, SciPy, Visual Studio, 
+                 Eagle PCB
+Past Experience: NVidia’s CUDA, OrCAD, SPICE simulation, libsvm, GPML
+
+Databases
+----------------
+Proficient     : MySQL, SQLite, Oracle
+
+Hardware
+----------------
+Proficient     : Intel (x86, 8051), ARM, PICs, Gumstix Motorola 68x, TI MSP430 
+Past Experience: TI (67x DSP kits), Berkeley Motes
+
+
+===============================================================================
+EDUCATION
+-------------------------------------------------------------------------------
+PhD, Computer Science
+University of Southern California, CA GPA 3.56 July 2013 (expected)
+Thesis - Path Planning for Autonomous Underwater Vehicles in the Open Ocean
+Advisor - Prof. Gaurav S. Sukhatme
+
+
+-------------------------------------------------------------------------------
+Master of Science, Electrical Engineering
+University of Southern California, CA GPA 3.72 May 2007 (graduated)
+Thesis - Navigation and Guidance of an Autonomous Surface Vehicle
+Advanced DSP project - Tracking groups of people in real-time video using 
+                       TI DSP processor
+Sensing and Planning in Robotics Project - Mapless Localization from Fused 
+                       Sensor Data
+
+
+-------------------------------------------------------------------------------
+Bachelor of Engineering, Electronics and Communications
+VTU, Belgaum, Karnataka, India 1st class with Distinction July 2002 (graduated)
+Project 1 - Development of a Automatic Weather Station
+Project 2 - PC-based Blood Sample Colorimeter
+
+
+
+MEMBERSHIPS
+Student member of the IEEE since 2007
+Member of the Robotics and Automation Society since 2007
+Apple iOS Developer since 2009
+Reviewer for Journals and Conference articles: JFR, AURO,TRO, ICRA, IROS, OCEANS
+
+
+
+PUBLICATIONS
+http://robotics.usc.edu/~ampereir/publications
+http://robotics.usc.edu/~ampereir/google_scholar
+
+
+REFERENCES
+References provided upon request. (Online references available at Linked In).
+
+===============================================================================
