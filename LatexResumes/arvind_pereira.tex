@@ -43,8 +43,8 @@
 \newcommand{\gtxt }[1]{{\color{blue} {#1}}} 
 \newtoggle{detailedVersion}
 % If we want a detailed resume with individual languages used in each project and so on, toggle this flag true.
-%\toggletrue{detailedVersion}
-\togglefalse{detailedVersion}
+\toggletrue{detailedVersion}
+%\togglefalse{detailedVersion}
 
 \iftoggle{detailedVersion}{
 \topmargin=-0.5in % start text higher on the page
@@ -70,7 +70,7 @@
 \iftoggle{detailedVersion}{
 \section{\centerline{OBJECTIVE}}
 \vspace{8pt} % provide vertical space between section title and contents
-Seeking a full time position at a company where I can utilize my skills to research and develop amazing products.
+\center{To utilize my skills in researching and developing the world's most amazing products}
 }{}
 % Core Expertise Section
 \vspace{0.2in} 
@@ -148,11 +148,9 @@ Seeking a full time position at a company where I can utilize my skills to resea
    \iftoggle{detailedVersion}{
    \item[\tiny$\blacksquare$]  All code on robot written in C++ (Linux); OpenCV for vision. GUI written in C\# .Net (Windows); Prototyping in Matlab (Control Systems Toolbox, System Identification Toolbox) and Simulink}{}
     \end{itemize}
-    \pagebreak%
+    %\pagebreak%
     }{}
     \iftoggle{detailedVersion}{\end{itemize}}{}
-
-
  \end{itemize}
 
 {\sl \href{http://welcome.isr.ist.utl.pt/home/}{\textbf{Institute for Systems and Robotics, Lisbon, Portugal}}} \hfill May 2008--August 2008  \\[2pt]
@@ -237,7 +235,7 @@ Seeking a full time position at a company where I can utilize my skills to resea
 \end{tabular}
 \end{table}
 
-\iftoggle{detailedVersion}{\newpage}
+%\iftoggle{detailedVersion}{\newpage}
 
 \vspace{0.2in}
 \section{\centerline{TECHNICAL EXPERTISE}}
@@ -325,7 +323,7 @@ Project 2 - \href{http://robotics.usc.edu/~ampereir/wordpress/?p=382}{PC-based B
  \end{center}}{}
 
 \iftoggle{detailedVersion}{
-\vspace{3in}
+\vspace{0.5in}
 \centerline{\color{blue}{(Kindly note, that the pdf version of this resume contains clickable links to more detailed information on  projects)}}
 }{}
  
