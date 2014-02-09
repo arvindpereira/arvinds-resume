@@ -43,8 +43,8 @@
 \newcommand{\gtxt }[1]{{\color{blue} {#1}}} 
 \newtoggle{detailedVersion}
 % If we want a detailed resume with individual languages used in each project and so on, toggle this flag true.
-%\toggletrue{detailedVersion}
-\togglefalse{detailedVersion}
+\toggletrue{detailedVersion}
+%\togglefalse{detailedVersion}
 
 \iftoggle{detailedVersion}{
 \topmargin=-0.5in % start text higher on the page
@@ -58,19 +58,19 @@
 \url{http://linkedin.com/in/arvindpereira}
 }
 
-\address{{}1026 1/2 W 24th St. \\ Los Angeles, CA 90007\\
+\address{{}1055 Escalon Ave \\ Sunnyvale, CA 94085\\
   \href{mailto:arvind.pereira@gmail.com}{arvind.pereira@gmail.com}}
 
 % ---- Resume begins here ----
 
 \begin{resume}
 \vspace{3pt}
-\centerline{{{{\sl PhD (CS), MS-EE, BE(Electronics)}}}}%   
+\centerline{{{{\sl PhD (Computer Science), MS (Electrical Eng.), BE (Electronics \& Comm. Eng.)}}}}%   
 
 \iftoggle{detailedVersion}{
 \section{\centerline{OBJECTIVE}}
 \vspace{8pt} % provide vertical space between section title and contents
-Seeking a full time position at a company where I can utilize my skills to research and develop amazing products.
+\center{To utilize my skills in researching and developing the world's most amazing products}
 }{}
 % Core Expertise Section
 \vspace{0.2in} 
@@ -100,6 +100,14 @@ Seeking a full time position at a company where I can utilize my skills to resea
     \iftoggle{detailedVersion}{\begin{itemize}\item[\tiny$\blacksquare$] Combines techniques from Computer Vision, Image Processing and Algorithms
    \item[\tiny$\blacksquare$] All code written in C++, Java, for the Android platform, with prototyping in Matlab
    \item[\tiny$\blacksquare$] Used hardware parallelization, OpenCV and developed algorithms for improved image enhancement
+   \end{itemize}}{}
+     \end{itemize}
+  \item Implemented features in various core Clover software  \itemsep -2pt
+   \begin{itemize}
+   \item[$\checkmark$]  \itemsep -8pt%
+    Added features to Clover's server, Android platform, Android apps and web dashboard
+    \iftoggle{detailedVersion}{\begin{itemize}\item[\tiny$\blacksquare$] Required diverse software development skills
+       \item[\tiny$\blacksquare$] Code written mainly in Java, SQL, C++, C and Javascript
    \end{itemize}}{}
    \end{itemize}
 \end{itemize}
@@ -140,11 +148,9 @@ Seeking a full time position at a company where I can utilize my skills to resea
    \iftoggle{detailedVersion}{
    \item[\tiny$\blacksquare$]  All code on robot written in C++ (Linux); OpenCV for vision. GUI written in C\# .Net (Windows); Prototyping in Matlab (Control Systems Toolbox, System Identification Toolbox) and Simulink}{}
     \end{itemize}
-    \pagebreak%
+    %\pagebreak%
     }{}
     \iftoggle{detailedVersion}{\end{itemize}}{}
-
-
  \end{itemize}
 
 {\sl \href{http://welcome.isr.ist.utl.pt/home/}{\textbf{Institute for Systems and Robotics, Lisbon, Portugal}}} \hfill May 2008--August 2008  \\[2pt]
@@ -229,7 +235,7 @@ Seeking a full time position at a company where I can utilize my skills to resea
 \end{tabular}
 \end{table}
 
-\iftoggle{detailedVersion}{\newpage}
+%\iftoggle{detailedVersion}{\newpage}
 
 \vspace{0.2in}
 \section{\centerline{TECHNICAL EXPERTISE}}
@@ -258,7 +264,7 @@ Seeking a full time position at a company where I can utilize my skills to resea
 \section{\centerline{EDUCATION}}
 \vspace{8pt}
 {\sl PhD}, Computer Science \\
-{\bf University of Southern California, CA \hspace{0.5in}  GPA 3.56 \hfill Sep 2013 (expected)}\\
+{\bf University of Southern California, CA \hspace{0.5in}  GPA 3.56 \hfill Sep 2013 (graduated)}\\
 Thesis - \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=131}{Path Planning for Autonomous Underwater Vehicles in the Open Ocean}\\
 Advisor - \href{http://robotics.usc.edu/~gaurav}{Prof. Gaurav S. Sukhatme}
 
@@ -268,6 +274,7 @@ Thesis - \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=365}{Navigat
 Advanced DSP project - \href{http://robotics.usc.edu/~ampereir/wordpress/?p=156}{Tracking groups of people in real-time video using TI DSP processor} \\
 Sensing and Planning in Robotics Project -  \href{http://robotics.usc.edu/~ampereir/pubs/report547.pdf}{Mapless Localization from Fused Sensor Data}
  
+ \vspace{0.2in}
  
 {\sl Bachelor of Engineering}, Electronics and Communications \\ % \sl will be bold italic in
 {\bf \href{http://www.vtu.ac.in/}{VTU}, Belgaum, Karnataka, India   \hspace{0.5in} 1st class with Distinction   \hfill    Jul 2002 (graduated)} \\
@@ -316,7 +323,7 @@ Project 2 - \href{http://robotics.usc.edu/~ampereir/wordpress/?p=382}{PC-based B
  \end{center}}{}
 
 \iftoggle{detailedVersion}{
-\vspace{3in}
+\vspace{0.5in}
 \centerline{\color{blue}{(Kindly note, that the pdf version of this resume contains clickable links to more detailed information on  projects)}}
 }{}
  

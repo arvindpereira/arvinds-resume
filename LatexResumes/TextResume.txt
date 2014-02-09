@@ -3,14 +3,12 @@ Name: ARVIND A. DE MENEZES PEREIRA
 Phone: (213) 270-4465 or (213) 342-1734
 WebPage: http://robotics.usc.edu/~ampereir
 LinkedIn: http://linkedin.com/in/arvindpereira
-Address: 1026 1/2 W 24th St. Los Angeles, CA 90007
 Email: arvind.pereira@gmail.com
-PhD candidate (CS), MS-EE, BE(Electronics)
+PhD (CS), MS-EE, BE(Electronics)
 
 OBJECTIVE
-Seeking a full time position at a company where I can utilize my skills to 
-research and develop amazing products.
-
+To utilize my skills in researching and developing the world's most amazing 
+products
 
 CORE EXPERTISE
 Artiﬁcial Intelligence,  Robotics & Control Systems,  Machine Learning,
@@ -20,8 +18,24 @@ Embedded systems,  Computer Networking,  Data Structures & Algorithms
 
 WORK EXPERIENCE
 -------------------------------------------------------------------------------
-University of Southern California, Los Angeles           January 2006 - Present
-Research Assistant,                         Robotic Embedded Systems Laboratory
+Clover Network Inc.                                      October 2013 - Present
+Mountain View, California                                     Software Engineer
+1. Developed high-performance barcode scanner for Clover Point of Sales 
+   terminals
++ Scanner enables rapid product barcode and QR-code scanning using low-cost 
+   camera
++ Combines techniques from Computer Vision, Image Processing and Algorithms
++ All code written in C++, Java, for the Android, prototyping in Matlab
++ Used hardware parallelization, OpenCV and developed algorithms for improved 
+  image enhancement
+2. Implemented features in various core Clover software
++ Added features to Clover’s server, Android platform, Android apps and 
+  web dashboard
++ Required diverse software development skills
++ Code written mainly in Java, SQL, C++, C and Javascript 
+
+University of Southern California, Los Angeles    January 2006 - September 2013
+Robotic Embedded Systems Laboratory                          Research Assistant               
 1. Developed path planners for glider AUVs under High Uncertainty
 + 1st planners for glider AUVs to deal with uncertainty in 
   ocean model predictions
@@ -96,7 +110,6 @@ Project Assistant                    Marine Instrumentation & Computer Division
 + Code written in C/C++ (Embedded), Visual C++ for Windows-based GUI
 
 
-
 ENTREPRENEURIAL EXPERIENCE
 1. KnoVid - Developing an alternate unobtrusive Interest-based ad system for 
    Android and iOS devices
@@ -162,8 +175,8 @@ Past Experience: TI (67x DSP kits), Berkeley Motes
 EDUCATION
 -------------------------------------------------------------------------------
 PhD, Computer Science
-University of Southern California, CA GPA 3.56 July 2013 (expected)
-Thesis - Path Planning for Autonomous Underwater Vehicles in the Open Ocean
+University of Southern California, CA GPA 3.56 July 2013 (graduated)
+Thesis  - Path Planning for Autonomous Underwater Vehicles in the Open Ocean
 Advisor - Prof. Gaurav S. Sukhatme
 
 
