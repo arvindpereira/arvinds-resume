@@ -5,7 +5,8 @@ shortResume = 'Arvind_Pereira_CV.tex'
 compileTex = './compileTex.sh'
 
 
-all: PlainResume DetailedResume ShortResume
+#all: PlainResume DetailedResume ShortResume
+all: PlainResume #DetailedResume ShortResume
 
 PlainResume:
 	$(compileTex) $(plainResume)
