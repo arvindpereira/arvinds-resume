@@ -1,103 +1,55 @@
 % LaTeX file for resume 
-% This file uses the resume document class (res.cls)
+% This file uses the modern resume style
 
-\documentclass{res} 
+\documentclass{article}
 
+% Modern styling
+\usepackage{modern_resume}
 
+% Additional packages
 \usepackage{amsmath}
-\usepackage{easylist}
 \usepackage{amssymb}
 \usepackage{etoolbox}
-\usepackage{xcolor}
 \usepackage{lastpage}
-\usepackage{hyperref}
-\hypersetup{urlbordercolor={white},pagebordercolor={white},pdfnewwindow=true}
 
-%\usepackage[margin=1in,height=20in]{geometry}
-%citebordercolor [rgb 0 1 0]
-%filebordercolor [rgb 0 .5 .5]
-%linkbordercolor [rgb 1 0 0]
-%menubordercolor [rgb 1 0 0]
-%urlbordercolor [rgb 0 1 1]
-%runbordercolor [rgb 0 .7 .7]
-%allbordercolors
-
-\usepackage{times}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
-\newsectionwidth{0pt}  % So the text is not indented under section headings
-\usepackage{fancyhdr}  % use this package to get a 2 line header
-\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\setlength{\headheight}{24pt} % allow room for 2-line header
-\setlength{\headsep}{24pt}  % space between header and text
-\setlength{\headheight}{24pt} % allow room for 2-line header
-
-
-%\pagestyle{fancy}     % set pagestyle for document
-\rhead{ {\it A. Pereira}\\{\it p. \thepage\  of~\pageref{LastPage}} } % put text in header (right side)
-\cfoot{}                                     % the foot is empty
-
-
-
-\newcommand{\gtxt }[1]{{\color{blue} {#1}}} 
+% Toggle for detailed version
 \newtoggle{detailedVersion}
-% If we want a detailed resume with individual languages used in each project and so on, toggle this flag true.
-%\toggletrue{detailedVersion}
 \togglefalse{detailedVersion}
 
-\iftoggle{detailedVersion}{
-\topmargin=-0.5in % start text higher on the page
-}{\topmargin=-1in}
-
 \begin{document}
-\thispagestyle{empty} % this page has no header
-\name{\LARGE{ARVIND A. DE MENEZES PEREIRA}\\[8pt]}  % the \\[12pt] adds a blank line after name
-\address{{}\href{tel:12132704465}{+1(213)~270-4465} \\ 
-% \url{http://robotics.usc.edu/~ampereir} \\
-\url{http://linkedin.com/in/arvindpereira}
-}
+\thispagestyle{empty}
 
-\begin{resume}
+% Modern header
+\modernheader{ARVIND A. DE MENEZES PEREIRA}{PhD (Computer Science), MS (Electrical Eng.), BE (Electronics \& Comm. Eng.)}
 
+% Contact information
+\contactinfo{Campbell, CA 95008}{arvind.pereira@gmail.com}{linkedin.com/in/arvindpereira}
 
-\address{{}Campbell, CA 95008\\
-  \href{mailto:arvind.pereira@gmail.com}{arvind.pereira@gmail.com}}
-
-% ---- Resume begins here ----
-
+% Resume content
 \input{resume_content}
 
- \vspace{0.2in}
-%\iftoggle{detailedVersion}{
-\section{\centerline{PUBLICATIONS}}
+% Publications section
+\cvsection{PUBLICATIONS}
 \iftoggle{detailedVersion}{
-\bibliographystyle{arvindpereira}
-\vspace{15pt}
-\begingroup
-\renewcommand{\section}[2]{}%
-{\def\section*#1{}\bibliography{arvind_pereira}}
-\endgroup
-\nocite{*}}{
-{\begin{itemize}
-\item Recent publications: {\url{https://scholar.google.com/citations?user=7oD5x5oAAAAJ&hl=en}}
-\iftoggle{detailedVersion}{\item Google Scholar Citations: {\url{https://scholar.google.com/citations?user=7oD5x5oAAAAJ&hl=en}}}{}
-\end{itemize}
-}}
-
-
- \iftoggle{detailedVersion}{
- \vspace{0.2in}
- \section{\centerline{REFERENCES}}
- \vspace{8pt}
- \begin{center}
- References provided upon request. (Online references available at \href{http://linkedin.com/in/arvindpereira}{LinkedIn}).
- \end{center}}{}
+    \bibliographystyle{arvindpereira}
+    \vspace{15pt}
+    \begingroup
+    \renewcommand{\section}[2]{}
+    {\def\section*#1{}\bibliography{arvind_pereira}}
+    \endgroup
+    \nocite{*}
+}{
+    \begin{itemize}
+        \item Recent publications: \href{https://scholar.google.com/citations?user=7oD5x5oAAAAJ&hl=en}{Google Scholar Profile}
+    \end{itemize}
+}
 
 \iftoggle{detailedVersion}{
-\vspace{0.5in}
-\centerline{\color{blue}{(Kindly note, that the pdf version of this resume contains clickable links to more detailed information on  projects)}}
+    \cvsection{REFERENCES}
+    \begin{center}
+        References provided upon request. (Online references available at \href{http://linkedin.com/in/arvindpereira}{LinkedIn}).
+    \end{center}
 }{}
- 
-\end{resume} 
+
 \end{document}
 
