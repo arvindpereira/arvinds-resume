@@ -1,14 +1,11 @@
-% \vspace{3pt}
-% \centerline{{{{\sl PhD (Computer Science), MS (Electrical Eng.), BE (Electronics \& Comm. Eng.)}}}}%   
+% resume_content_v2.tex -- Updated March 2026
+% Shared body file, included via \input{resume_content_v2} from main .tex files.
+% Requires \newtoggle{detailedVersion} to be defined before \input.
 
-%\iftoggle{detailedVersion}
-%{
 \section{\centerline{SUMMARY}}
-\vspace{12pt} % provide vertical space between section title and contents
-%\center{\it{Research engineer passionate about applying AI to the real world}}
-\center{\it{Hands on Engineering and technical leader passionate about robotics and AI for the real world}}
-%}{}
-% Core Expertise Section
+\vspace{12pt}
+\center{\it{Hands-on engineering leader with 20 years shipping AI, robotics, and simulation from prototype to production}}
+
 \vspace{0.2in} 
 \section{\centerline{ CORE EXPERTISE }}
 \vspace{8pt}
@@ -16,21 +13,36 @@
 \centering
 \begin{tabular}{lll}
 \textbullet~Artificial Intelligence &  \textbullet~Robotics \& Control Systems &  \textbullet~Machine Learning \\
-\textbullet~Planning under uncertainty & \textbullet~Computer Vision & \textbullet~Signal \& Image Processing \\
-\textbullet~Embedded systems & \textbullet~Computer Networking & \textbullet~Data Structures \& Algorithms \\
-\textbullet~Systems Software & \textbullet~Hardware In Loop & \textbullet~RFID \\
-\textbullet~Entrepreneurship & \textbullet~Building teams & \textbullet~Engineering Leadership
+\textbullet~Deep Learning & \textbullet~Generative AI / Foundation Models & \textbullet~Computer Vision \\
+\textbullet~Autonomous Vehicles / ADAS & \textbullet~Simulation \& HIL/SIL/MIL & \textbullet~Planning under Uncertainty \\
+\textbullet~Real-Time \& GPU Systems & \textbullet~Embedded Systems & \textbullet~Signal \& Image Processing \\
+\textbullet~Systems Software & \textbullet~Building \& Scaling Teams & \textbullet~Engineering Leadership
 \end{tabular}
 \end{table}
  
- % Work Experience Section 
+% ============================================================
+% WORK EXPERIENCE
+% ============================================================
 \vspace{0.2in} 
 \section{\centerline{WORK EXPERIENCE}}
 
 \vspace{8pt}
-{\sl \href{http://applied.co}{\textbf{Applied Intuition}}} \hfill        January 2020 - Present \\
+{\sl \href{https://wayve.ai}{\textbf{Wayve}}} \hfill        August 2025 - Present \\
+\href{https://wayve.ai}{\textbf{San Francisco Bay Area}}       \hfill   \textbf{Technical Lead, Senior Staff Engineer}
+   \begin{itemize} \itemsep -2pt
+   \item Building Wayve's cutting-edge closed-loop simulation based on generative AI foundation models
+   \begin{itemize}
+   {\item[$\checkmark$] Helped develop Wayve's simulation strategy cross-team and with leadership}
+   {\item[$\checkmark$] Collaborated on Verification and Release approaches (e.g.\ HIL validation, virtual ECUs)}
+   {\item[$\checkmark$] Developed and helped maintain core simulation engines for open-loop and closed-loop simulation}
+   {\item[$\checkmark$] Implemented simulation support for AI evaluation of safety and L2+ product features}
+   \end{itemize}
+\end{itemize}
+
+\vspace{8pt}
+{\sl \href{http://applied.co}{\textbf{Applied Intuition}}} \hfill        January 2020 - July 2025 \\
 \href{http://applied.co}{\textbf{Mountain View, California}}       \hfill   \textbf{Engineering Manager}
-   \begin{itemize} \itemsep -2pt % reduce space between items
+   \begin{itemize} \itemsep -2pt
    \item Founded, created and led team building X-In-the-Loop (XIL) simulation products at Applied Intuition
    \begin{itemize}
    {\item[$\checkmark$] Founding XIL member; led Object HIL from concept to production in under one year}
@@ -39,7 +51,6 @@
    {\item[$\checkmark$] Owned product vision and technical roadmap since the team was founded}
    {\item[$\checkmark$] Shipped Object HIL, Sensor HIL, and Replay HIL}
    {\item[$\checkmark$] Built the Model-in-the-Loop (MIL) toolbox for the Applied Development Platform (ADP)}
-%   {\item[$\checkmark$] I previously built the Processor In the Loop (PIL) solution for a semiconductor customer}
    {\item[$\checkmark$] Designed virtual ECU (vECU) simulator for software-in-the-loop (SIL) testing}
    {\item[$\checkmark$] Contributed to core simulator engine and AD/ADAS validation interfaces}
    \end{itemize}
@@ -54,9 +65,9 @@
 
 
 \vspace{8pt}
-{\sl \href{http://artificial.com}{\textbf{Artificial}}} \hfill        September 2019 - November 2019 \\
+{\sl \href{http://artificial.com}{\textbf{Artificial, Inc.}}} \hfill        September 2019 - November 2019 \\
 \href{http://artificial.com}{\textbf{Palo Alto, California}}       \hfill   \textbf{Consultant}
-   \begin{itemize} \itemsep -2pt % reduce space between items
+   \begin{itemize} \itemsep -2pt
    \item Helped refine product-market fit for Robotic Lab Automation
    \begin{itemize}
    {\item[$\checkmark$] Partnered with product and CTO on roadmap, features, and architecture}
@@ -68,7 +79,7 @@
 \vspace{8pt}
 {\sl \href{https://web.archive.org/web/20230130130556/https://level.ai/}{\textbf{LEVEL.ai}}} \hfill        August 2016 - August 2019 \\
 \href{https://web.archive.org/web/20230130130556/https://level.ai/}{\textbf{Palo Alto, California}}       \hfill   \textbf{Founder, CTO}
-   \begin{itemize} \itemsep -2pt % reduce space between items
+   \begin{itemize} \itemsep -2pt
    \item Co-founded company in my garage, with Leonard Speiser and Nick Leindecker
    \begin{itemize}
    	{\item[$\checkmark$] We raised 25 million in 2 rounds (Series A and B)}
@@ -77,7 +88,7 @@
    \end{itemize}
    \item Responsible for overall architecture, R\&D and software
    \begin{itemize}
-   {\item[$\checkmark$] Invented algorithms that are at the core of our products (3 issued, 2 pending patents)}
+   {\item[$\checkmark$] Named inventor on 5 issued US patents covering AI-driven cooking, energy steering, and splatter prevention (see Patents section)}
    {\item[$\checkmark$] Developed core AI: Planning \& control algorithms and led development of deep learning perception stack}
    {\item[$\checkmark$] Helped build our engineering team for machine learning, computer vision, sensing and planning}
    {\item[$\checkmark$] Learned to tradeoff between building for rapid iteration and operational stability/scalability}
@@ -90,7 +101,7 @@
 \vspace{8pt}
 {\sl \href{http://www.clover.com}{\textbf{Clover Network Inc.}}} \hfill        October 2013 - September 2016 \\
 \href{http://www.clover.com/team}{\textbf{Mountain View, California}}       \hfill   \textbf{Software Engineer, Data Scientist}
-   \begin{itemize} \itemsep -2pt % reduce space between items
+   \begin{itemize} \itemsep -2pt
    \item Built and led Clover's internal data science team. Some projects we worked on were:
 	  \begin{itemize}
 		  {\item[$\checkmark$] Merchant retention modeling}
@@ -137,12 +148,13 @@
       \end{itemize}
     } {}
    \end{itemize}
+   \item Named inventor on 3 issued US patents covering NFC filter tuning and accessible PIN entry (see Patents section)
 \end{itemize}
  
 \vspace{8pt}
 {\sl \href{http://www.usc.edu}{\textbf{University of Southern California, Los Angeles}}} \hfill        January 2006 - September 2013 \\
 \href{http://robotics.usc.edu/resl}{\textbf{Robotic Embedded Systems Laboratory}}       \hfill   \textbf{Research Assistant}
-   \begin{itemize} \itemsep -2pt % reduce space between items
+   \begin{itemize} \itemsep -2pt
    \item \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=131}{Developed  path planners for glider AUVs under High Uncertainty} \itemsep -2pt
    \begin{itemize}\item[$\checkmark$]  \itemsep -8pt%
     1st planners for glider AUVs to deal with uncertainty in ocean model predictions 
@@ -178,120 +190,92 @@
    \iftoggle{detailedVersion}{
    \item[\tiny$\blacksquare$]  All code on robot written in C++ (Linux); OpenCV for vision. GUI written in C\# .Net (Windows); Prototyping in Matlab (Control Systems Toolbox, System Identification Toolbox) and Simulink}{}
     \end{itemize}
-    %\pagebreak%
     }{}
     \iftoggle{detailedVersion}{\end{itemize}}{}
  \end{itemize}
 
+\vspace{8pt}
 {\sl \href{http://welcome.isr.ist.utl.pt/home/}{\textbf{Institute for Systems and Robotics, Lisbon, Portugal}}} \hfill May 2008--August 2008  \\[2pt]
 \href{http://www.grex-project.eu/}{\textbf{EU-GREX Project}} \hfill   \textbf{ Lead Developer}
-\begin{itemize}
- \item \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=397}{Implemented GREX Interface module for EU-GREX project}
-   \begin{itemize} \item[$\checkmark$] Met all objectives on time despite large pre-existing code-base, and multi-national teams
-   \item[$\checkmark$] All software was successfully tested - only team with working robot at field test in July
-   \iftoggle{detailedVersion}{\begin{itemize}
-   \item[\tiny$\blacksquare$]  Required Control Systems, Robotics, Ability to understand and implement complex algorithms quickly
-   \item[\tiny$\blacksquare$]  Coded in Visual C++ .Net (Embedded Windows PC) and Matlab for prototyping
-   \end{itemize}}{}
+\begin{itemize} \itemsep -2pt
+ \item \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=397}{Implemented GREX Interface module for EU-GREX cooperative marine vehicle project}
+   \begin{itemize}
+   \item[$\checkmark$] Met all objectives on time despite large pre-existing code-base, and multi-national teams
+   \item[$\checkmark$] Only team with a working robot at the Azores field test
    \end{itemize}
-   \end{itemize} 
-   
-   \vspace{-6pt}
- 
-{\sl \href{http://nio.org}{\textbf{National Institute of Oceanography, Goa, India}}}       \hfill               September 2003 - July 2005 \\[2pt]
-\textbf{Marine Instrumentation \& Computer Division} \hfill \textbf{Research Fellow}
- \begin{itemize} 
+\end{itemize} 
+
+\vspace{8pt}
+{\sl \href{http://nio.org}{\textbf{National Institute of Oceanography, Goa, India}}}       \hfill               June 2002 - July 2005 \\[2pt]
+\textbf{Marine Instrumentation \& Computer Division} \hfill \textbf{Research Fellow / Project Assistant}
+ \begin{itemize} \itemsep -2pt
  \item  \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=425}{Led software development and hardware design on India's first Autonomous Underwater Vehicle (MAYA)}
  \begin{itemize} 
  \item[$\checkmark$] Wrote over 95\% of Control, Communications, Recovery, Guidance and Navigation code
-  \iftoggle{detailedVersion}{\begin{itemize}
-   \item[\tiny$\blacksquare$]  Required Control Systems, Robotics, Computer Networking
-   \item[\tiny$\blacksquare$]  Coded in C++ (Linux), Visual C++ (Windows) for Control GUI, C (micro controllers)and Matlab for prototyping
-   \end{itemize}}{}
-    \item[$\checkmark$] Designed most of the original embedded circuitry for CAN actuator nodes
+ \item[$\checkmark$] Designed embedded circuitry for CAN actuator nodes
  \end{itemize}
- 
- \item  \href{http://robotics.usc.edu/~ampereir/wordpress/?page_id=382}{Developed a Wave-recorder that uploaded wave-data to server via GSM cellular data-modems}
- \iftoggle{detailedVersion}{
+ \item  Developed oceanographic instruments (wave-recorder with GSM telemetry, tide-gauges for UNESCO/IOC)
  \begin{itemize}
- \item[$\checkmark$] One of the earliest GSM-enabled instruments in Oceanography
-  \begin{itemize}
-   \item[\tiny$\blacksquare$]  Code written in C (Embedded), Visual C++ for Windows-based GUI 
-   \item[\tiny$\blacksquare$]  Hardware design involved PCB layout software (Eagle)
-   \end{itemize}
- \end{itemize}}{}
+ \item[$\checkmark$] Tide gauges remained functional for over a decade without servicing
  \end{itemize}
- 
-{\sl \href{http://nio.org}{\textbf{National Institute of Oceanography, Goa, India}}}       \hfill               August 2002 - August 2003 \\[2pt]
-\textbf{Marine Instrumentation \& Computer Division} \hfill \textbf{Project Assistant}
-
-  \begin{itemize}
-  \item  Worked on the design of a heading controller for ROSS - "Remotely Operated Sea Skimmer", a surface craft which was remotely controlled
-    \iftoggle{detailedVersion}{\begin{itemize}
-  \item[$\checkmark$] Tested robot successfully at sea (even soldered broken circuitry at sea)
-  \begin{itemize}
-   \item[\tiny$\blacksquare$]  Code written in C/C++ (Linux), Visual C++ for Windows-based GUI
-   \item[\tiny$\blacksquare$]  Hardware design involved PCB layout software (Eagle)
-   \end{itemize}
- \end{itemize}}{}
-
-   \item  Developed Tide-gauges for the Indo-Ghanaian Collaborative program (UNESCO, IOC)
-  \begin{itemize}
-  \item[$\checkmark$] Tide gauges developed still functional after 8 years (without servicing)
-  \iftoggle{detailedVersion}{\begin{itemize}
-   \item[\tiny$\blacksquare$]  Code written in C/C++ (Embedded), Visual C++ for Windows-based GUI
-   \end{itemize}}{}
- \end{itemize}
+ \item  Designed heading controller for ROSS autonomous surface craft; tested at sea
  \end{itemize}
 
-\vspace{0.3in}
-\section{\centerline{ENTREPRENEURIAL EXPERIENCE}}
-\vspace{10pt}
-\begin{itemize}
-\item Markov - Technical co-founder of Markov Corporation (Level.ai), where I led engineering and R\&D.
-\item KnoVid - Developing an alternate unobtrusive Interest-based ad system for Android and iOS devices
-\item KartTime - Designed a system that determines lap-timings for Go-Karts \iftoggle{detailedVersion}{and which uses short-range wireless RF-communication based on slotted TDM, FDM and FSK}{}
+% ============================================================
+% PATENTS (verified via Google Patents, March 2026)
+% ============================================================
+\vspace{0.2in}
+\section{\centerline{PATENTS}}
+\vspace{8pt}
+{\bf Markov Corporation / Level.ai} (5 issued US patents, 3 patent families)
+\begin{itemize} \itemsep -2pt
+\item US 10,009,957 B2 -- Electronic Oven with Infrared Evaluative Control (Jun 2018)
+\item US 10,681,776 B2 -- Electronic Oven with Infrared Evaluative Control, continuation (Jun 2020)
+\item US 11,632,826 B2 -- Electronic Oven with Infrared Evaluative Control, continuation (Apr 2023)
+\item US 10,219,330 B2 -- Electronic Oven with Splatter Prevention (Feb 2019)
+\item US 10,980,088 B2 -- Energy Absorption Monitoring for Intelligent Electronic Oven (Apr 2021)
+\end{itemize}
+{\bf Clover Network Inc.} (3 issued US patents, 2 patent families)
+\begin{itemize} \itemsep -2pt
+\item US 9,319,029 B1 -- System and Method for Automatic Filter Tuning (Apr 2016)
+\item US 9,716,482 B2 -- System and Method for Automatic Filter Tuning, continuation (Jul 2017)
+\item US 9,483,693 B1 -- Free-Hand Character Recognition on a Touch Screen POS Terminal (Nov 2016)
 \end{itemize}
 
+% ============================================================
+% ENTREPRENEURIAL EXPERIENCE
+% ============================================================
+\vspace{0.2in}
+\section{\centerline{ENTREPRENEURIAL EXPERIENCE}}
+\vspace{10pt}
+\begin{itemize} \itemsep -2pt
+\item Markov / Level.ai -- Technical co-founder of Markov Corporation (Level.ai), where I led engineering and R\&D.
+\item \href{https://ampy.us}{ampy.us} -- Founded consulting practice (Aug 2019--Present) providing strategic and technical consulting for robotics, automation, machine learning, computer vision, and embedded systems.
+\end{itemize}
+
+% ============================================================
+% MENTORING EXPERIENCE
+% ============================================================
 \section{\centerline{MENTORING EXPERIENCE}}
 \vspace{10pt}
-\centerline{Undergraduate student projects mentored (student groups usually consisted of 3-5 students).}
-\vspace{10pt}
-\begin{table}[ht]
-\centering
-\begin{tabular}{ll}
-{\tiny$\blacksquare$}~PIC-based Fin/Rudder Node for AUV &  {\tiny$\blacksquare$}~PIC-based Tide Level Measurement System \\
-{\tiny$\blacksquare$}~PI-controller for Thruster speed regulation & {\tiny$\blacksquare$}~Pan and Tilt system for Thrust Vectoring an AUV
-\end{tabular}
-\end{table}
+% TODO: Arvind to provide academic mentoring details here
+% (e.g. interns, PhD students, university collaborators -- institutions, counts, outcomes)
+\centerline{\it Placeholder -- to be updated with recent academic mentoring experience.}
 
-%\iftoggle{detailedVersion}{\newpage}
+% ============================================================
+% CERTIFICATIONS
+% ============================================================
+\vspace{0.2in}
+\section{\centerline{CERTIFICATIONS}}
+\vspace{8pt}
+\begin{itemize} \itemsep -2pt
+\item Business Leadership -- Harrison Metal (Jan 2019)
+\item General Management -- Harrison Metal (Nov 2018)
+\end{itemize}
 
-%\vspace{0.2in}
-% TODO: @arvindpereira to fix this section. It is not clear enough at the moment.
-% \newpage
-% \section{\centerline{TECHNICAL EXPERTISE}}
-% \vspace{8pt}
-
-% \begin{table*}[h]
-%     \begin{tabular}{|lll|}
-%         \hline \bfseries Technology & \bfseries Proficient & \bfseries Prior Experience \\\hline 
-%         \hline \bfseries Programming Languages & C, C++ (OOP, \href{http://boost.org}{Boost}, STL, \href{http://beej.us/guide/bgnet/output/html/multipage/index.html}{Sockets},  & Visual C++, C\#, Java, Obj-C  \\
-%         & \href{https://computing.llnl.gov/tutorials/pthreads/}{Multi-threading}), \href{http://www.greenteapress.com/thinkpython/html/index.html}{Python}, \href{http://www.mathworks.com/}{Matlab}, Shell Scripting &  Javascript, SQL, Perl, \href{http://www.latex-project.org/}{\LaTeX} \\
-%         \hline \bfseries Operating Systems & \href{http://www.ubuntu.com/}{Ubuntu} \href{http://www.linux.org/}{Linux}, Unix, \href{https://developer.apple.com/}{OS-X}, \href{http://windows.microsoft.com/en-us/windows/home}{Windows} & \href{http://en.wikipedia.org/wiki/DOS}{MS-DOS}, \href{http://www.tinyos.net/}{TinyOS}  \\
-%         \hline \bfseries Frameworks & \href{http://developer.android.com/index.html}{Android}, \href{http://www.ros.org/wiki/}{ROS}, \href{http://pointclouds.org/}{PCL}, \href{http://opencv.org/}{OpenCV}, \href{https://www.tensorflow.org/}{Tensorflow}, \href{https://keras.io/}{Keras} &  \href{http://playerstage.sourceforge.net/} {Player, Stage} \href{http://gazebosim.org/}{Gazebo}, \href{http://www.openni.org/}{OpenNI}, \href{https://developer.apple.com/devcenter/ios/index.action}{Xcode}  \\
-%         \hline \bfseries Testing & PyUnit, \href{http://robotics.usc.edu/~ampereir/wordpress/?p=772}{CppUnit} & JUnit, NUnit, \href{https://code.google.com/p/googletest/}{googletest} \\
-%         \hline \bfseries Version Control & \href{http://robotics.usc.edu/~ampereir/wordpress/?p=487}{Git}, \href{http://subversion.apache.org/}{Subversion} &  \href{http://mercurial.selenic.com/}{Mercurial} \\
-%         \hline \bfseries Tools \& Utilities & Eclipse, Xcode, \href{http://www.mathworks.com/products/simulink/}{Simulink}, \href{http://www.numpy.org/}{NumPy}, \href{http://www.scipy.org/}{SciPy}, \href{https://spark.apache.org/}{Spark}, \href{https://pandas.pydata.org/}{Pandas} & SPICE simulation, \href{http://www.csie.ntu.edu.tw/~cjlin/libsvm/}{libsvm}, \href{http://www.gaussianprocess.org/gpml/code/matlab/doc/}{GPML} \\
-%            &  \href{http://www.microsoft.com/visualstudio/}{Visual Studio}, PCB layout and design (Eagle) & \href{https://developer.nvidia.com/category/zone/cuda-zone}{NVidia's CUDA}, \href{http://www.cadence.com/products/orcad/pages/default.aspx}{OrCAD} \\
-%         \hline \bfseries Databases & \href{http://www.mysql.com/}{MySQL}, SQLite & \href{http://www.oracle.com/}{Oracle} \\
-%         \hline \bfseries Hardware & Intel (x86, 8051), ARM, PICs, Gumstix  & \href{http://www.clear.rice.edu/elec201/Book/6811_asm.html}{Motorola 68x}, \href{http://robotics.usc.edu/~ampereir/wordpress/?p=156}{TI (67x DSP kits)} \\
-%            &  TI (MSP430)  & Berkeley Motes \\
-%         \hline 
-%      \end{tabular}
-%    \end{table*}
-
- 
+% ============================================================
+% EDUCATION
+% ============================================================
 \vspace{0.2in}
 \section{\centerline{EDUCATION}}
 \vspace{8pt}
@@ -308,23 +292,24 @@ Sensing and Planning in Robotics Project -  \href{http://robotics.usc.edu/~amper
  
  \vspace{0.2in}
  
-{\sl Bachelor of Engineering}, Electronics and Communications \\ % \sl will be bold italic in
-{\bf \href{http://www.vtu.ac.in/}{VTU}, Belgaum, Karnataka, India   \hspace{0.5in} 1st class with Distinction   \hfill    Jul 2002 (graduated)} \\
+{\sl Bachelor of Engineering}, Electronics and Communications \\
+{\bf \href{http://www.vtu.ac.in/en}{VTU}, Belgaum, Karnataka, India   \hspace{0.5in} 1st class with Distinction   \hfill    Jul 2002 (graduated)} \\
 Project 1 - \href{http://robotics.usc.edu/~ampereir/wordpress/?p=382}{Development of a Automatic Weather Station} \\
 Project 2 - \href{http://robotics.usc.edu/~ampereir/wordpress/?p=382}{PC-based Blood Sample Colorimeter}
- 
- \vspace{0in} 
 
-%\iftoggle{detailedVersion}{
-% \section{\centerline{MEMBERSHIPS}} 
-% \begin{itemize}
-%       \iftoggle{detailedVersion}{
-%       \item Student member of the IEEE since 2007
-%        \item Member of the Robotics and Automation Society since 2007 
-%       \item Apple iOS Developer since 2009
-%       \item Reviewer for Journals and Conference articles (JFR, AURO, TRO, ICRA, IROS, OCEANS)}
-%       {\item Student member of IEEE and Robotics and Automation Society since 2007
-%       \item Apple iOS Developer since 2009}
-%  \end{itemize}
- %}{}
- 
+% ============================================================
+% LANGUAGES
+% ============================================================
+\vspace{0.2in}
+\section{\centerline{LANGUAGES}}
+\vspace{8pt}
+\begin{table}[ht]
+\centering
+\begin{tabular}{ll}
+\textbullet~English (native/bilingual) & \textbullet~Hindi (native/bilingual) \\
+\textbullet~Konkani (native/bilingual) & \textbullet~Portuguese (limited working proficiency) \\
+\textbullet~Marathi (limited working proficiency) &
+\end{tabular}
+\end{table}
+
+\vspace{0in} 
